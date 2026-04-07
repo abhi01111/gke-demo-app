@@ -1,7 +1,9 @@
 FROM node:18-alpine
 WORKDIR /app
-COPY product-service/package.json .
+
+COPY package.json .
 RUN npm install
-COPY product-service/ .
-EXPOSE 3002
+
+COPY . .
+
 CMD ["node", "server.js"]
