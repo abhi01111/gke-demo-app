@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: gateway
-        image: abhisheksahane/gateway:1.0
+        image: abhisheksahane/gateway:latest
         ports:
         - containerPort: 3000

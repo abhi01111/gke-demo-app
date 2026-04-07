@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: product
-        image: abhisheksahane/product:1.0
+        image: abhisheksahane/product:latest
         ports:
         - containerPort: 3002

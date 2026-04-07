@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: user
-        image: abhisheksahane/user:1.0
+        image: abhisheksahane/user:latest
         ports:
         - containerPort: 3001
